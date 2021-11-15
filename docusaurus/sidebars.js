@@ -1,6 +1,20 @@
 module.exports = {
-  someSidebar: {
-    Docusaurus: ['intro', 'doc1', 'doc2', 'doc3'],
-    Features: ['mdx'],
-  },
+    someSidebar:[
+    {
+        type: 'doc',
+        id: 'intro',
+    },
+        'intro',
+        'how-to-use',
+        'face-services-and-plugins',
+        'rest-api-description',
+        'face-recognition-similarity-threshold',
+        'configuration',
+        'architecture-and-scalability',
+        'custom-builds',
+        'face-data-migration',
+        'user-roles-system',
+        'mask-detection-plugin',
+        'gathering-anonymous-statistics',
+    ],
 };
