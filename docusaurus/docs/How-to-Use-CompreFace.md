@@ -8,7 +8,7 @@ sidebar_label: How to use CompreFace
 # How to Use CompreFace
 
 **Step 1.** Install and run CompreFace using our [Getting Started
-guide](../README.md#getting-started-with-compreface)
+guide](intro.md#getting-started-with-compreface)
 
 **Step 2.** You need to sign up for the system and login into the
 account you've just created or use the one you already have. After
@@ -80,14 +80,14 @@ Each object has the following fields:
 
 ## Demos
 
-1.  [tutorial_demo.html](./demos/tutorial_demo.html)
+1.  [tutorial_demo.html]
 
 This demo shows the most simple example of Face recognition service
 usage. To run a demo, open an HTML file in a browser. API key for this
 demo was created on **step 5** of [How to Use
 CompreFace](#how-to-use-compreface)
 
-2.  [webcam_demo.html](./demos/webcam_demo.html)
+2.  [webcam_demo.html]
 
 This demo shows the most simple webcam demo for Face recognition
 service. To run a demo, open an HTML file in a browser. API key for this

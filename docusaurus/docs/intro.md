@@ -50,13 +50,13 @@ gender recognition
 # Functionalities
 
 - Supports many face recognition services:
-  - [face detection](/docs/Face-services-and-plugins.md#face-detection)
-  - [face recognition](/docs/Face-services-and-plugins.md#face-recognition)
-  - [face verification](/docs/Face-services-and-plugins.md#face-verification)
-  - [landmark detection plugin](/docs/Face-services-and-plugins.md#face-plugins)
-  - [age recognition plugin](/docs/Face-services-and-plugins.md#face-plugins)
-  - [gender recognition plugin](/docs/Face-services-and-plugins.md#face-plugins)
-  - [face mask detection plugin](/docs/Face-services-and-plugins.md#face-plugins)
+  - [face detection](Face-services-and-plugins.md#face-detection)
+  - [face recognition](Face-services-and-plugins.md#face-recognition)
+  - [face verification](Face-services-and-plugins.md#face-verification)
+  - [landmark detection plugin](Face-services-and-plugins.md#face-plugins)
+  - [age recognition plugin](Face-services-and-plugins.md#face-plugins)
+  - [gender recognition plugin](Face-services-and-plugins.md#face-plugins)
+  - [face mask detection plugin](Face-services-and-plugins.md#face-plugins)
 - Use the ComperFace UI panel for convenient user roles and access management
 
 # Getting Started with CompreFace
@@ -88,7 +88,7 @@ gender recognition
 
 ### Getting started for contributors
 
-Follow this [link](/dev)
+Follow this [link]
 
 # CompreFace SDKs
 
@@ -99,7 +99,7 @@ Follow this [link](/dev)
 
 # Documentation
 
-More documentation is available [here](/docs)
+More documentation is available [here]
 
 # Contributing
 
@@ -109,11 +109,11 @@ We want to improve our open-source face recognition solution, so your contributi
 * Share knowledge and experience via posting guides and articles, or just improve our [documentation](https://github.com/exadel-inc/CompreFace/tree/master/docs)
 * Create [SDKs](https://github.com/topics/compreface-sdk) for favorite programming language, we will add it to our documentation
 * Integrate CompreFace support to other platforms like [Home Assistant](https://www.home-assistant.io/) or [DreamFactory](https://www.dreamfactory.com/), we will add it to our documentation
-* [Contribute](CONTRIBUTING.md) code
-* Add [plugin](/docs/Face-services-and-plugins.md#face-plugins) to face services
+* [Contribute] code
+* Add [plugin](Face-services-and-plugins.md#face-plugins) to face services
 * And last, but not least, you can just give a star to our free facial recognition system on GitHub
 
-For more information, visit our [contributing](CONTRIBUTING.md) guide, or create a [discussion](https://github.com/exadel-inc/CompreFace/discussions).
+For more information, visit our [contributing] guide, or create a [discussion](https://github.com/exadel-inc/CompreFace/discussions).
 
 # License info
 

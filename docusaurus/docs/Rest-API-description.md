@@ -195,7 +195,7 @@ itself is saved by default, it is needed for managing images,
 e.g., [download of the
 image](#direct-download-an-image-example-of-the-subject-by-id). You can
 change it using the `save_images_to_db` parameter in
-[configuration](Configuration.md).
+[configuration].
 
 One subject example is enough for face recognition; the accuracy is high
 enough. But if you add more examples, the accuracy can be even better.

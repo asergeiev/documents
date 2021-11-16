@@ -7,7 +7,8 @@ module.exports = {
   favicon: 'img/favicon.ico',
   organizationName: 'asergeiev', // Usually your GitHub org/user name.
   projectName: 'documents', // Usually your repo name.
-
+    onBrokenMarkdownLinks: 'ignore',
+    onBrokenLinks: 'ignore',
   themeConfig: {
     navbar: {
       title: 'CompreFace',
