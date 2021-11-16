@@ -8,7 +8,7 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: <>My website</>,
+    title: <>CompreFace</>,
     imageUrl: 'img/undraw_figure.svg',
       secondParagraph: (
           <>

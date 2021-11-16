@@ -14,9 +14,7 @@ each of its components, and suggestions on how to scale the system.
 
 ## CompreFace architecture diagram
 
-![CompreFace architecture
-diagram](media/image1.png){width="5.833333333333333in"
-height="2.976010498687664in"}
+
 
 CompreFace architecture diagram
 

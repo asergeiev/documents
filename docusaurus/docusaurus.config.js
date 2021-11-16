@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'Edy',
+  title: 'CompreFace',
   tagline: 'Documentation website',
   url: 'https://asergeiev.github.io',
   baseUrl: '/documents/',
@@ -9,7 +9,7 @@ module.exports = {
   projectName: 'documents', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'EDY',
+      title: 'CompreFace',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.png',
@@ -42,20 +42,7 @@ module.exports = {
     footer: {
       style: 'dark',
       links: [
-        {
-          title: 'Documentation',
-          items: [
-            {
-              label: 'Style Guide',
-              to: 'docs/',
-            },
-            {
-              label: 'Second Doc',
-              to: 'docs/doc2/',
-            },
-          ],
-        },
-        {
+         {
           title: 'Community',
           items: [
             {

@@ -1,5 +1,5 @@
 ---
-id: mask-detection-plugin
+slug: mask-detection-plugin
 title: Face Mask Detection Plugin
 sidebar_label: Face Mask Detection Plugin
 ---
@@ -24,8 +24,7 @@ are the reference point in the plugin's data analysis.
 
 # Face mask detection example
 
-![results](media/image1.png){width="5.833333333333333in"
-height="4.373164916885389in"}
+
 
 results
 

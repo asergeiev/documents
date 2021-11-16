@@ -1,7 +1,8 @@
 ---
-id: user-roles-system
+slug: user-roles-system
 title: User Roles System
 sidebar_label: User Roles System
+---
 
 # User Roles System
 

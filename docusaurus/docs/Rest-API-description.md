@@ -1,5 +1,5 @@
 ---
-id: rest-api-description
+slug: rest-api-description
 title: Rest API Description
 sidebar_label: Rest API Description
 ---
@@ -271,7 +271,7 @@ Response body on success:
 | Element        | Type    | Description                                                  |
 | -------------- | ------- | ------------------------------------------------------------ |
 | face.image_id  | UUID    | UUID of the face                                             |
-| fase.subject   | string  | <subject> of the person, whose picture was saved for this api key |
+| fase.subject   | string  | `<subject>` of the person, whose picture was saved for this api key |
 | page_number    | integer | page number |
 | page_size      | integer | **requested** page size |
 | total_pages    | integer | total pages |
@@ -280,7 +280,7 @@ Response body on success:
 
 ### Delete All Examples of the Subject by Name
 
-To delete all image examples of the <subject>:
+To delete all image examples of the `<subject>`:
 
 ```http request
 curl -X DELETE "http://localhost:8000/api/v1/recognition/faces?subject=<subject>" \
@@ -330,13 +330,13 @@ Response body on success:
 | Element  | Type   | Description                                                  |
 | -------- | ------ | ------------------------------------------------------------ |
 | image_id | UUID   | UUID of the removed face                                     |
-| subject  | string | <subject> of the person, whose picture was saved for this api key |
+| subject  | string | `<subject>` of the person, whose picture was saved for this api key |
 
 
 ### Direct Download an Image example of the Subject by ID
 ```since 0.6 version```
 
-You can paste this URL into the <img> html tag to show the image.
+You can paste this URL into the `<img>` html tag to show the image.
 
 ```http request
 curl -X GET "http://localhost:8000/api/v1/static/<service_api_key>/images/<image_id>"

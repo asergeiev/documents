@@ -1,5 +1,5 @@
 ---
-id: intro
+slug: intro
 title: Introduction
 sidebar_label: Introduction
 ---
@@ -17,18 +17,15 @@ CompreFace is delivered as a docker-compose config and supports different models
 Our solution is based on state-of-the-art methods and libraries like FaceNet and InsightFace.
 
 # Screenshots
-<p align="center">
-<img src="https://user-images.githubusercontent.com/3736126/130649323-b52d787c-8ba4-4064-97a6-6ffa70ef5f46.png" 
-alt="compreface-recognition-page" width=390px style="padding: 0px 10px 0px 0px;">
-<img src="https://user-images.githubusercontent.com/3736126/130649405-72d5324f-8ba6-4fa6-9e37-cac6f0b80c92.png" 
-alt="compreface-main-page" width="390px" style="padding: 0px 0px 0px 10px;">
-</p>
-<p align="center">
-<img src="https://user-images.githubusercontent.com/3736126/130649939-15f40c5b-5cda-4627-a6d1-c243a8095411.png" 
-alt="compreface-recognition-page" width=390px style="padding: 0px 10px 0px 0px;">
-<img src="https://user-images.githubusercontent.com/3736126/130650028-c82dc1c7-0c8d-43a5-9e50-5c52125cbf1a.png" 
-alt="compreface-main-page" width="390px" style="padding: 0px 0px 0px 10px;">
-</p>
+
+![](https://user-images.githubusercontent.com/3736126/130649323-b52d787c-8ba4-4064-97a6-6ffa70ef5f46.png)
+
+![](https://user-images.githubusercontent.com/3736126/130649405-72d5324f-8ba6-4fa6-9e37-cac6f0b80c92.png)
+
+![](https://user-images.githubusercontent.com/3736126/130649939-15f40c5b-5cda-4627-a6d1-c243a8095411.png)
+
+![](https://user-images.githubusercontent.com/3736126/130650028-c82dc1c7-0c8d-43a5-9e50-5c52125cbf1a.png)
+
 
 # News and updates
 

@@ -1,5 +1,5 @@
 ---
-id: face-services-and-plugins
+slug: face-services-and-plugins
 title: Face Services and Plugins
 sidebar_label: Face Services and Plugins
 ---
@@ -48,7 +48,7 @@ The Response is the output which ComperFace provides via [API](Rest-API-descript
 
 Example:
 
-![](pics/13h41m46s_001_.png)
+
 
 ## Face recognition
 
@@ -78,7 +78,7 @@ The Response is the output which ComperFace provides via [API](Rest-API-descript
 
 Example:
 
-![](pics/14h03m09s_002_.png)
+
 
 ## Face verification
 
@@ -107,7 +107,7 @@ The Response is the output which ComperFace provides via [API](Rest-API-descript
 
 Example:
 
-![](pics/14h06m24s_003_.png)
+
 
 #  Face plugins
 
