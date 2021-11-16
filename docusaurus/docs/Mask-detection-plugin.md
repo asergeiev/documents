@@ -1,5 +1,5 @@
 ---
-slug: mask-detection-plugin
+id: mask-detection-plugin
 title: Face Mask Detection Plugin
 sidebar_label: Face Mask Detection Plugin
 ---

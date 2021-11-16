@@ -1,5 +1,6 @@
 ---
-slug: intro
+id: intro
+slug: /
 title: Introduction
 sidebar_label: Introduction
 ---

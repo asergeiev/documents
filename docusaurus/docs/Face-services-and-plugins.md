@@ -1,5 +1,5 @@
 ---
-slug: face-services-and-plugins
+id: face-services-and-plugins
 title: Face Services and Plugins
 sidebar_label: Face Services and Plugins
 ---

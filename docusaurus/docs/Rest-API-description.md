@@ -1,5 +1,5 @@
 ---
-slug: rest-api-description
+id: rest-api-description
 title: Rest API Description
 sidebar_label: Rest API Description
 ---

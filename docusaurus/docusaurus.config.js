@@ -7,6 +7,7 @@ module.exports = {
   favicon: 'img/favicon.ico',
   organizationName: 'asergeiev', // Usually your GitHub org/user name.
   projectName: 'documents', // Usually your repo name.
+
   themeConfig: {
     navbar: {
       title: 'CompreFace',
@@ -82,11 +83,10 @@ module.exports = {
       {
         docs: {
           // It is recommended to set document id as docs home page (`docs/` path).
-          homePageId: 'doc3',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+                  'https://github.com/facebook/docusaurus/edit/master/website/',
         },
         blog: {
           showReadingTime: true,

@@ -1,5 +1,5 @@
 ---
-slug: face-data-migration
+id: face-data-migration
 title: Face Data Migration
 sidebar_label: Face Data Migration
 ---
