@@ -3,13 +3,12 @@ module.exports = {
   tagline: 'Documentation website',
   url: 'https://asergeiev.github.io',
   baseUrl: '/documents/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'ignore',
   favicon: 'img/favicon.ico',
   organizationName: 'asergeiev', // Usually your GitHub org/user name.
   projectName: 'documents', // Usually your repo name.
   trailingSlash: 'false',
  // onBrokenMarkdownLinks: 'ignore',
-  onBrokenLinks: 'ignore',
 
     themeConfig: {
     navbar: {
