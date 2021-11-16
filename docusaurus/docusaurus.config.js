@@ -7,9 +7,10 @@ module.exports = {
   favicon: 'img/favicon.ico',
   organizationName: 'asergeiev', // Usually your GitHub org/user name.
   projectName: 'documents', // Usually your repo name.
-    onBrokenMarkdownLinks: 'ignore',
-    onBrokenLinks: 'ignore',
-  themeConfig: {
+  onBrokenMarkdownLinks: 'ignore',
+  onBrokenLinks: 'ignore',
+
+    themeConfig: {
     navbar: {
       title: 'CompreFace',
       logo: {
@@ -23,24 +24,9 @@ module.exports = {
           label: 'Docs',
           position: 'left',
         },
-        {to: 'blog', label: 'Blog', position: 'left'},
-        {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
-          position: 'right',
-        },
       ],
     },
-    algolia: {
-      apiKey: 'e44c59d36394a26b1616e631a1c9d197',
-      indexName: 'edy',
-      appId: 'HXJSB0I3EO',
 
-      // Optional: see doc section bellow
-      // contextualSearch: true,
-
-      //... other Algolia params
-    },
     footer: {
       style: 'dark',
       links: [
