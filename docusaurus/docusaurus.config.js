@@ -2,7 +2,7 @@ module.exports = {
   title: 'CompreFace',
   tagline: 'Documentation website',
   url: 'https://asergeiev.github.io',
-  baseUrl: '/documents-gh-pages/',
+  baseUrl: '/documents/',
   onBrokenLinks: 'ignore',
   favicon: 'img/favicon.ico',
   organizationName: 'asergeiev', // Usually your GitHub org/user name.
@@ -93,7 +93,7 @@ module.exports = {
             'https://github.com/facebook/docusaurus/edit/master/website/blog/',
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve('./src/css/custom.css', './src/pages/index.module.css'),
         },
       },
     ],
