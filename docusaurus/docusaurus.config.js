@@ -2,7 +2,7 @@ module.exports = {
   title: 'CompreFace',
   tagline: 'Documentation website',
   url: 'https://asergeiev.github.io',
-  baseUrl: '/documents/',
+  baseUrl: '/documents-gh-pages/',
   onBrokenLinks: 'ignore',
   favicon: 'img/favicon.ico',
   organizationName: 'asergeiev', // Usually your GitHub org/user name.
