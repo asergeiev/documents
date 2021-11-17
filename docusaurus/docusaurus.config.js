@@ -1,117 +1,101 @@
-// @ts-check
-// Note: type annotations allow type checking and IDEs autocompletion
+module.exports = {
+  title: 'CompreFace',
+  tagline: 'Documentation website',
+  url: 'https://asergeiev.github.io',
+  baseUrl: '/documents/',
+  onBrokenLinks: 'ignore',
+  favicon: 'img/favicon.ico',
+  organizationName: 'asergeiev', // Usually your GitHub org/user name.
+  projectName: 'documents', // Usually your repo name.
+  //trailingSlash: 'false',
+ // onBrokenMarkdownLinks: 'ignore',
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+    themeConfig: {
+    navbar: {
+      title: 'CompreFace',
+      logo: {
+        alt: 'My Site Logo',
+        src: 'img/logo.png',
+      },
+      items: [
+        {
+          to: 'docs/',
+          activeBasePath: 'docs',
+          label: 'Docs',
+          position: 'left',
+        },
+      ],
+    },
+    algolia: {
+      apiKey: 'e44c59d36394a26b1616e631a1c9d197',
+      indexName: 'CompreFace',
+      appId: 'HXJSB0I3EO',
 
-/** @type {import('@docusaurus/types').Config} */
-const config = {
-    title: 'CompreFace',
-    tagline: 'Documentation website',
-    url: 'https://asergeiev.github.io',
-    baseUrl: '/documents/',
-    onBrokenLinks: 'ignore',
-    favicon: 'img/favicon.ico',
-    organizationName: 'asergeiev', // Usually your GitHub org/user name.
-    projectName: 'documents', // Usually your repo name.
+            // Optional: see doc section bellow
+            // contextualSearch: true,
 
+            //... other Algolia params
+        },
+
+    footer: {
+      style: 'dark',
+      links: [
+         {
+          title: 'Community',
+          items: [
+            {
+              label: 'Stack Overflow',
+              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+            },
+            {
+              label: 'Discord',
+              href: 'https://discordapp.com/invite/docusaurus',
+            },
+            {
+              label: 'Twitter',
+              href: 'https://twitter.com/docusaurus',
+            },
+          ],
+        },
+        {
+          title: 'More',
+          items: [
+            {
+              label: 'Blog',
+              to: 'blog',
+            },
+            {
+              label: 'GitHub',
+              href: 'https://github.com/facebook/docusaurus',
+            },
+          ],
+        },
+      ],
+      copyright: `Copyright © ${new Date().getFullYear()} EDY, Inc. Built with Docusaurus.`,
+    },
+  },
   presets: [
     [
       '@docusaurus/preset-classic',
-      /** @type {import('@docusaurus/preset-classic').Options} */
-      ({
+      {
         docs: {
+          // It is recommended to set document id as docs home page (`docs/` path).
+          //homePageId: 'intro',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/facebook/docusaurus/edit/main/website/',
+          editUrl:
+          'https://github.com/facebook/docusaurus/edit/master/website/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/main/website/blog/',
+            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
-      }),
+      },
     ],
   ],
-
-  themeConfig:
-    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
-    ({
-      navbar: {
-        title: 'CompreFace',
-        logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
-        },
-        items: [
-          {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: 'Documentation',
-          },
-
-          {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
-          },
-        ],
-      },
-      footer: {
-        style: 'dark',
-        links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
-            ],
-          },
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
-      },
-      prism: {
-        theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
-      },
-    }),
 };
-
-module.exports = config;
