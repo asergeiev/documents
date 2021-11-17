@@ -8,28 +8,29 @@ const FeatureList = [
     Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        CompreFace can be easily integrated into any system without prior machine learning skills.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Features',
     Svg: require('../../static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        The system can accurately identify people even when it has 
+        only “seen” their photo once. Technology-wise, CompreFace has 
+        several advantages over similar free face recognition solutions. 
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'REST API',
     Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        CompreFace provides REST API for face recognition, face verification, 
+        face detection, face mask detection, landmark detection, 
+        age, and gender recognition and is easily deployed with docker
       </>
     ),
   },
