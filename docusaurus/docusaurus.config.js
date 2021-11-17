@@ -3,13 +3,13 @@
 const config = {
   title: 'ComperFace',
   tagline: 'Details about the  face recognition service ComperFace.',
-  url: 'https://documentation.github.io',
-  baseUrl: '/',
+  url: 'https://asergeiev.github.io',
+  baseUrl: '/documents/',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'Exadel', // Usually your GitHub org/user name.
-  projectName: 'ComperFace', // Usually your repo name.
+  organizationName: 'asergeiev', // Usually your GitHub org/user name.
+  projectName: 'documents', // Usually your repo name.
 
   presets: [
     [
